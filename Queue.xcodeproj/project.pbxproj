@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		734786E91CFC01C100C32FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 734786E81CFC01C100C32FF9 /* main.m */; };
+		734786F11CFC032600C32FF9 /* NSMutableArray+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 734786F01CFC032600C32FF9 /* NSMutableArray+Queue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		734786E51CFC01C100C32FF9 /* Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Queue; sourceTree = BUILT_PRODUCTS_DIR; };
 		734786E81CFC01C100C32FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		734786EF1CFC032600C32FF9 /* NSMutableArray+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Queue.h"; sourceTree = "<group>"; };
+		734786F01CFC032600C32FF9 /* NSMutableArray+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Queue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				734786E81CFC01C100C32FF9 /* main.m */,
+				734786EF1CFC032600C32FF9 /* NSMutableArray+Queue.h */,
+				734786F01CFC032600C32FF9 /* NSMutableArray+Queue.m */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				734786E91CFC01C100C32FF9 /* main.m in Sources */,
+				734786F11CFC032600C32FF9 /* NSMutableArray+Queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
