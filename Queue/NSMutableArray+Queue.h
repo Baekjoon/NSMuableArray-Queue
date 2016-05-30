@@ -12,5 +12,6 @@
 
 -(void)push:(id)obj;
 -(id)pop;
+-(BOOL)empty;
 
 @end

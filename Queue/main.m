@@ -11,15 +11,12 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSMutableArray *arr = [NSMutableArray array];
+        NSMutableArray *queue = [NSMutableArray array];
         for (NSInteger i=1; i<=10; i++) {
-            [arr push:@(i)];
+            [queue push:@(i)];
         }
-        [arr removeObjectAtIndex:0]; // pop
-        [arr removeObjectAtIndex:0]; //pop
-//        [arr pop];
-        for (NSUInteger i=0; i<[arr count]; i++) {
-            NSLog(@"%@", arr[i]);
+        while (![queue empty]) {
+            NSLog(@"%@", [queue pop]);
         }
     }
     return 0;
